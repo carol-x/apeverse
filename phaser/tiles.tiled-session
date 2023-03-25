@@ -1,0 +1,27 @@
+{
+    "activeFile": "",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "basic_tiles.tmx": {
+            "scale": 0.75,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 496.6666666666667,
+                "y": 244.66666666666669
+            }
+        },
+        "basic_tiles.tmx#ground": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        }
+    },
+    "openFiles": [
+    ],
+    "project": "",
+    "recentFiles": [
+        "basic_tiles.tmx"
+    ]
+}

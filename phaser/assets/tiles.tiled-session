@@ -1,0 +1,25 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "",
+    "expandedProjectPaths": [
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "basic_tiles.tmx#ground": {
+            "dynamicWrapping": false
+        }
+    },
+    "last.exportedFilePath": "/Users/yixix/workspace/apeverse/phaser",
+    "last.imagePath": "/Users/yixix/workspace/apeverse/phaser",
+    "map.lastUsedExportFilter": "JSON map files (*.tmj *.json)",
+    "map.lastUsedFormat": "json",
+    "openFiles": [
+    ],
+    "project": "tiles.tiled-project",
+    "recentFiles": [
+    ],
+    "tileset.embedInMap": true
+}
