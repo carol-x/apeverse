@@ -1,3 +1,6 @@
+// smart contract setup 
+// window.ethereum.enable();
+
 // game setup 
 var config = {
     type: Phaser.AUTO,
@@ -92,7 +95,7 @@ function create ()
     redeemButton = this.add.text(this.cameras.main.centerX-150, this.cameras.main.centerY-100, 'Redeem Bananas')
         .setOrigin(0.5)
         .setPadding(5)
-        .setStyle({ backgroundColor: '#111' })
+        .setStyle({ backgroundColor: '#119' })
         .setInteractive({ useHandCursor: true })
         .on('pointerdown', farmBanana)
         .on('pointerover', () => redeemButton.setStyle({ fill: '#f39c12' }))
@@ -101,7 +104,7 @@ function create ()
     swapButton = this.add.text(this.cameras.main.centerX-150, this.cameras.main.centerY-150, 'Swap Tokens')
         .setOrigin(0.5)
         .setPadding(5)
-        .setStyle({ backgroundColor: '#111' })
+        .setStyle({ backgroundColor: '#119' })
         .setInteractive({ useHandCursor: true })
         .on('pointerdown', farmBanana)
         .on('pointerover', () => swapButton.setStyle({ fill: '#f39c12' }))
@@ -109,7 +112,7 @@ function create ()
     governanceButton = this.add.text(this.cameras.main.centerX-150, this.cameras.main.centerY-200, 'Vote Proposals')
         .setOrigin(0.5)
         .setPadding(5)
-        .setStyle({ backgroundColor: '#111' })
+        .setStyle({ backgroundColor: '#119' })
         .setInteractive({ useHandCursor: true })
         .on('pointerdown', farmBanana)
         .on('pointerover', () => governanceButton.setStyle({ fill: '#f39c12' }))
