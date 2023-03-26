@@ -8,7 +8,7 @@ async function main() {
     console.log("Account balance:", (await ethers.utils.formatEther(weiAmount)));
   
     // hard coded to the custom token name BANANA! 
-    const Token = await ethers.getContractFactory("BananaToken");
+    const Token = await ethers.getContractFactory("VerseToken");
     const token = await Token.deploy();
   
     console.log("Token address:", token.address);
