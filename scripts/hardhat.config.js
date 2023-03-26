@@ -9,7 +9,7 @@ module.exports = {
       url: process.env.L2_NODE_URL || 'http://localhost:8545',
       accounts: [process.env.PRIVATE_KEY],
       gasPrice: 0,
-      gas: 9000000
+      gas: 900000
     }
   },
   solidity: {

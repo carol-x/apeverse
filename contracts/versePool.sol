@@ -34,6 +34,10 @@ contract VersePool {
         _;
     }
 
+    function setRatio(uint256 _ratio) public onlyAdmin {
+        swapRatio = _ratio;
+    }
+
     function stakeToken() public payable {
         require(msg.value > 0, "Payment has to be greater than 0!"); 
         require(msg.sender.balance > msg.value, "You don't have enough token to pay");
